@@ -29,9 +29,6 @@ public class UtilsColegio {
 			alumnos[x] = new Alumno(nombres[x],apellidos[x],dnis[x]);
 		}
 		
-		//Prueba
-		alumnos[1].getNombre();
-		
 		return alumnos;
 	}
 
