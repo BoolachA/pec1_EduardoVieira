@@ -23,7 +23,7 @@ public class UtilsColegio {
 			System.out.println("DNI del alumno " + (x+1) + ": ");
 			dnis[x] = scanner.nextLine();
 		}
-		scanner.close();
+		
 		
 		for(int x=0;x<numAlumnos;x++) {
 			alumnos[x] = new Alumno(nombres[x],apellidos[x],dnis[x]);
