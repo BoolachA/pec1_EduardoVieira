@@ -14,5 +14,11 @@ public class Alumno {
 	public String getNombre() {
 		return nombre;
 	}
+	public String getApellidos() {
+		return apellidos;
+	}
+	public String getDni() {
+		return dni;
+	}
 
 }
